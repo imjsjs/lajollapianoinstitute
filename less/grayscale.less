@@ -53,7 +53,9 @@ a {
 .light {
     font-weight: 400;
 }
-
+#navbar-brand {
+    padding:0px;
+}
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid fade(white, 30%);
@@ -71,6 +73,7 @@ a {
     }
     .navbar-brand {
         font-weight: 700;
+        padding:0px;
         &:focus {
             outline: none;
         }
@@ -115,7 +118,7 @@ a {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
-            padding: 0;
+            padding: 20;
             background: black;
             border-bottom: 1px solid fade(white, 30%);
         }
@@ -249,7 +252,8 @@ a {
 }
 
 #map {
-    width: 100%;
+    width: 50%;
+    margin-left: 100px; 
     height: 200px;
     margin-top: 100px;
 }
