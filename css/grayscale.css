@@ -232,17 +232,17 @@ a:focus {
   -o-background-size: cover;
 }
 #map {
-  width: 50%;
+  width: 40%;
   height: 200px;
   margin-top: 250px;
-  margin-left: 10%;
+  margin-left: 20%;
   display: inline-block;
 }
 #address {
-    width: 25%;
+    width: 20%;
     height: 400px;
     margin-top: 250px;
-    margin-right: 10%;
+    margin-right: 20%;
     position: relative;
     overflow: hidden;
     color: white;
