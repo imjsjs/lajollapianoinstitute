@@ -131,6 +131,9 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
+.intro .phone { 
+    font-size: 32px;
+}
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
