@@ -25,11 +25,13 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+  text-shadow: 0 0 4px #000000;
 }
 p {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5;
+  text-shadow: 0 0 4px #000000;
 }
 @media (min-width: 768px) {
   p {
@@ -81,11 +83,12 @@ a:focus {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
+  background: transparent;
 }
 .navbar-custom .nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
-  background-color: transparent;
+  background-color: #555555;
 }
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
@@ -131,8 +134,14 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
+.phone { 
+    font-weight: 1000;
+    font-size:26px;
+}
 .intro .phone { 
-    font-size: 32px;
+  font-weight: 1000;
+  font-size:36px;
+  text-shadow: 0 0 4px #000000;
 }
 .intro .intro-body {
   display: table-cell;
@@ -140,9 +149,11 @@ a:focus {
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
+  text-shadow: 0 0 4px #000000;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
+  text-shadow: 0 0 4px #000000;
 }
 @media (min-width: 768px) {
   .intro {
@@ -245,11 +256,12 @@ a:focus {
     width: 20%;
     height: 400px;
     margin-top: 250px;
-    margin-right: 20%;
+    margin-right: 15%;
+    padding-left: 15px;
     position: relative;
     overflow: hidden;
     color: white;
-    text-align: right;
+    text-align: left;
     display: inline-block;
     vertical-align: top;
 }
